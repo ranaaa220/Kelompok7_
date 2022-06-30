@@ -85,6 +85,7 @@ public class Calculator {
         inText.setBackground(Color.WHITE);
         inText.setFont(new Font("Comic Sans MS", Font.PLAIN, 33));
         window.add(inText);
+        System.out.println(" no ");
 
         btnC = initBtn("C", x[0], y[1], event -> {
             repaintFont();
